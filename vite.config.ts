@@ -8,7 +8,7 @@ import { viteMockServe } from 'vite-plugin-mock'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '.',
+  base: './big-screen-project/',
   plugins: [
     vue(),
     AutoImport({
