@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "data|4": [
+    {
+      "_id": "@guid",
+      "name": "@city",
+      "value": "@integer(300, 999)"
+    }
+  ]
+}

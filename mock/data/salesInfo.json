@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "data|5": [
+    {
+      "_id": "@guid",
+      "name": "商家@increment(1)",
+      "value": "@integer(30, 200)"
+    }
+  ],
+  "msg": "成功"
+}
