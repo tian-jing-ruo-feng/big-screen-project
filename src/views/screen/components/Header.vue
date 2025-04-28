@@ -1,7 +1,8 @@
 <template>
   <div class="screen-header">
     <h1 class="screen-logo">
-      <span>天净若风</span>
+      <span>Logo</span>
+      <span style="font-size: 12px; padding-left: 20px; color: #F56C6C;">演示环境下展示的数据为模拟信息，不作为实际业务依据</span>
     </h1>
     <div class="screen-header-title">{{screenStore.title}}</div>
     <div class="screen-header-right">

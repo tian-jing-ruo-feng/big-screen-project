@@ -12,7 +12,7 @@ import Map from './Map.vue'
 .map-center {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 1070px;
   padding: 0 16px;
   animation: slideAndFide 1.75s;
 }

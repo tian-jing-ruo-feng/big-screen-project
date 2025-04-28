@@ -1,6 +1,5 @@
 import fs from 'fs'
 import path from 'path'
-import { json } from 'stream/consumers'
 export default {
   getJsonFile: function(filePath: string) {
     const json = fs.readFileSync(

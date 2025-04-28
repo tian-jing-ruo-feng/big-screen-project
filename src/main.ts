@@ -7,7 +7,7 @@ import router from '@/router'
 import pinia from './stores'
 
 createApp(App)
-  .use(chart)
-  .use(router)
-  .use(pinia)
-  .mount('#app')
+.use(chart)
+.use(router)
+.use(pinia)
+.mount('#app')

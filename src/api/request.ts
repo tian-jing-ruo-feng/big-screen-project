@@ -72,7 +72,6 @@ enum RequestEnums {
 }
 
 const config:AxiosRequestConfig = {
-  // baseURL: '/api',
   baseURL: import.meta.env.VITE_APP_API_URL as string,
   timeout: RequestEnums.TIMEOUT as number,
   withCredentials: true,

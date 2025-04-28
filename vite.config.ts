@@ -8,7 +8,6 @@ import { viteMockServe } from 'vite-plugin-mock'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/big-screen-project/',
   plugins: [
     vue(),
     AutoImport({
@@ -18,7 +17,7 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
     viteMockServe({
-      mockPath: './mock',
+      mockPath: 'mock',
       enable: true,
     })
   ],
