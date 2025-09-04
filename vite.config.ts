@@ -3,12 +3,14 @@ import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
-import { resolve } from 'path' 
+import { resolve } from 'path'
 import { viteMockServe } from 'vite-plugin-mock'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/big-screen-project/',
+  base: process.env.NODE_ENV === 'production'
+    ? '/big-screen-project/'  // 替换为您的实际仓库名称
+    : '/',
   plugins: [
     vue(),
     AutoImport({
