@@ -8,9 +8,7 @@ import { viteMockServe } from 'vite-plugin-mock'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production'
-    ? '/big-screen-project/'  // 替换为您的实际仓库名称
-    : '/',
+  base: process.env.BASE_URL,
   plugins: [
     vue(),
     AutoImport({
